@@ -1,0 +1,26 @@
+.youtuber__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
+    .youtuber {
+        margin: 1rem;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .youtuber__img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+        }
+
+        .youtuber__info {
+            text-align: center;
+        }
+    }
+}

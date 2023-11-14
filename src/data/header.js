@@ -14,11 +14,11 @@ export const menuText = [
         icon: <RiYoutubeFill />,
         src: "/"
     }, {
-        title: "Recent",
+        title: "Today's Pick!",
         icon: <BiSolidCalendarCheck />,
         src: "/today"
     }, {
-        title: "Recommand",
+        title: "HOT Youtuber",
         icon: <FaCrown />,
         src: "/youtuber"
     },
